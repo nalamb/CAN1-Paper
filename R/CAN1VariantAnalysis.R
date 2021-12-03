@@ -17,7 +17,7 @@ library(xlsx)
 library(RColorBrewer)
 
 ##### Permissive filter #####
-dt <- read.csv("AllVariantsEdit.txt",sep = "\t")
+dt <- read.csv("CAN1ManucriptVariants.txt",sep = "\t")
 # Set up a list of all permissive groupings
 permissiveGroups = c("WT_perm",
                      "rnr1Y285F_perm",
